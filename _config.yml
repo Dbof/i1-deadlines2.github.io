@@ -3,7 +3,7 @@ description: Countdowns to top Security and Privacy conference deadlines.
 author: Bogdan Kulynych
 
 domain: "i1-deadlines.github.io"
-baseurl: "/i1-deadlines2.github.ui"
+baseurl: "/i1-deadlines2.github.io"
 
 github_username: Dbof
 github_repo: i1-deadlines.github.io
