@@ -11,7 +11,31 @@
     - "2022-08-19 23:59"
     - "2022-12-02 23:59"
   place: San Francisco, California, USA
+<<<<<<< HEAD
   tags: [SEC, PRIV, CONF]
+||||||| constructed merge base
+  tags: [SEC, PRIV, CONF]
+  
+- name: FPS
+  year: 2022
+  date: "Dec 12–14"
+  description: 15th International Symposium on Foundations & Practice of Security
+  link: https://www.fps-2022.com
+  deadline: ["2022-10-07 23:59"]
+  place: Ottawa, Ontario, Canada
+  tags: [SEC, PRIV, CRYPTO, CONF]
+=======
+  tags: [SEC, PRIV, CONF, SOK]
+  
+- name: FPS
+  year: 2022
+  date: "Dec 12–14"
+  description: 15th International Symposium on Foundations & Practice of Security
+  link: https://www.fps-2022.com
+  deadline: ["2022-10-07 23:59"]
+  place: Ottawa, Ontario, Canada
+  tags: [SEC, PRIV, CRYPTO, CONF]
+>>>>>>> Update with new conferences and types
 
 - name: CCS
   description: ACM Conference on Computer and Communications Security
@@ -32,6 +56,7 @@
     - "2022-06-07 23:59"
     - "2022-10-11 23:59"
     - "2023-02-07 23:59"
+  comment: 3 review cycles
   date: "August 9-11"
   place: Anaheim, CA, USA.
   tags: [SEC, PRIV, CONF]
@@ -104,6 +129,7 @@
 
 - name: SOUPS
   description: Usenix Symposium on Usable Security and Privacy
+<<<<<<< HEAD
   year: 2023
   link: https://www.usenix.org/conference/soups2023
   deadline: ["2023-02-16 23:59"]
@@ -111,6 +137,23 @@
   date: August 6–8
   place: Anaheim, CA, USA.
   tags: [SEC, PRIV, CONF]
+||||||| constructed merge base
+  year: 2022
+  link: https://www.usenix.org/conference/soups2022
+  deadline: ["2022-02-17 23:59"]
+  comment: Collocated with Usenix Security; Paper registration due Feb 11 AoE.
+  date: August 7–9
+  place: Boston, USA.
+  tags: [SEC, PRIV, CONF]
+=======
+  year: 2022
+  link: https://www.usenix.org/conference/soups2022
+  deadline: ["2022-02-17 23:59"]
+  comment: Collocated with Usenix Security; Paper registration due Feb 11 AoE.
+  date: August 7–9
+  place: Boston, USA.
+  tags: [SEC, PRIV, CONF, SOK]
+>>>>>>> Update with new conferences and types
 
 - name: FC
   description: Financial Cryptography and Data Security
@@ -129,6 +172,43 @@
   deadline: ["2022-10-07 23:59"]
   place: Ottawa, Ontario, Canada
   tags: [SEC, PRIV, CRYPTO, CONF]
+
+- name: ARES
+  description: International Conference on Availability, Reliability and Security
+  year: 2022
+  link: https://www.ares-conference.eu/
+  deadline: ["2022-03-06 23:59"]
+  date: August 20 - 26
+  place: TU Wien, Vienna, Austria
+  tags: [SEC, SOK]
+
+- name: ACSAC
+  description: Annual Computer Security Applications Conference
+  year: 2021
+  link: https://www.acsac.org/2021/
+  deadline: ["2021-06-23 23:59"]
+  date: Dec 6-10
+  place: Austin, TX, USA
+  tags: [SEC, PRIV]
+
+- name: ROOTS
+  description: Reversing and Offensive-oriented Trends Symposium
+  year: 2021
+  link: https://roots-conference.org/cfp.html
+  deadline: ["2021-08-19 23:59"]
+  date: November 18-19
+  place: Vienna, Austria
+  tags: [SEC, SOK]
+
+- name: EuroSys
+  description: EuroSys is the the European chapter of ACM SIGOPS
+  year: 2022
+  link: https://2022.eurosys.org/
+  deadline: ["%y-09-30 23:59"]
+  comment: Deadlines yet to be announced -> October 1
+  date: April 5-8
+  place: Rennes, France
+  tags: [SEC,PRIV]
 
 - name: SSR
   description: Security Standardisation Research Conference
@@ -222,6 +302,26 @@
   date: June 10
   place: Genoa, Italy
   tags: [SEC, PRIV, CRYPTO, SHOP]
+
+# Forensics
+
+- name: DFRWS EU
+  description: "Digital Forensic Research Workshop"
+  year: 2022
+  link: https://dfrws.org/conferences/dfrws-eu-2022/
+  deadline: ["2021-10-15 23:59"]
+  date: March 28 - 31
+  place: Online and Physical
+  tags: [SEC, FOR]
+
+- name: DFRWS USA
+  description: "Digital Forensic Research Workshop"
+  year: 2022
+  link: https://dfrws.org/conferences/dfrws-usa-2022/
+  deadline: ["%y-01-31 23:59"]
+  date: July 11 - 14
+  place: Online and Physical
+  tags: [SEC, FOR]
 
 # Crypto
 
@@ -470,6 +570,25 @@
   tags: [SEC, CONF]
 
 # Workshops
+- name: WOOT
+  description: Workshop on Offensive Technologies
+  year: 2021
+  date: May 27
+  link: https://www.ieee-security.org/TC/SP2021/SPW2021/WOOT21/
+  deadline: ["2021-01-27 23:59"]
+  place: Virtual
+  tags: [SEC, SHOP]
+
+# RISC-V
+- name: SECRISC-V
+  description:  Workshop on Secure RISC-V Architecture Design
+  link: https://secriscv.org/
+  deadline: ["2021-10-16 23:59"]
+  date: November 7
+  year: 2021
+  place: Virtual
+  tags: [SEC, SHOP]
+
 - name: WPES
   description: Workshop on Privacy in the Electronic Society
   year: 2022

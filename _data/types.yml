@@ -9,4 +9,7 @@
   tag: CONF
 - name: Workshop
   tag: SHOP
-  
+- name: Forensics
+  tag: FOR
+- name: SoK paper
+  tag: SOK
