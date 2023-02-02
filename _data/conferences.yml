@@ -274,20 +274,20 @@
 
 - name: DFRWS EU
   description: "Digital Forensic Research Workshop"
-  year: 2022
-  link: https://dfrws.org/conferences/dfrws-eu-2022/
-  deadline: ["2021-10-15 23:59"]
-  date: March 28 - 31
-  place: Online and Physical
+  year: 2023
+  link: https://dfrws.org/conferences/dfrws-eu-2023/
+  deadline: ["2022-10-09 23:59"]
+  date: March 21 - 24
+  place: University of Bonn, Bonn, Germany
   tags: [SEC, FOR]
 
 - name: DFRWS USA
   description: "Digital Forensic Research Workshop"
-  year: 2022
-  link: https://dfrws.org/conferences/dfrws-usa-2022/
-  deadline: ["%y-01-31 23:59"]
-  date: July 11 - 14
-  place: Online and Physical
+  year: 2023
+  link: https://dfrws.org/conferences/dfrws-usa-2023
+  deadline: ["%y-02-02 23:59"]
+  date: July 9 - 12
+  place: Johns Hopkins University, Maryland, US
   tags: [SEC, FOR]
 
 # Crypto
@@ -537,14 +537,6 @@
   tags: [SEC, CONF]
 
 # Workshops
-- name: WOOT
-  description: Workshop on Offensive Technologies
-  year: 2021
-  date: May 27
-  link: https://www.ieee-security.org/TC/SP2021/SPW2021/WOOT21/
-  deadline: ["2021-01-27 23:59"]
-  place: Virtual
-  tags: [SEC, SHOP]
 
 # RISC-V
 - name: SECRISC-V
